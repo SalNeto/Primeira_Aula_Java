@@ -17,6 +17,7 @@ public class Imposto_Test {
 		impostos.setBase_Legal(false);
 		System.out.println(impostos);
 		
+		System.out.println("Mensagem de teste: " + localidade);
 
 	}
 
