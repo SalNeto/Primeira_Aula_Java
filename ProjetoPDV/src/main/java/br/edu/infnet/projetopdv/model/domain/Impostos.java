@@ -30,12 +30,14 @@ public class Impostos {
 		DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm" );
 		
 		
-		return String.format("%s;%s;%s,%s,%s", 
+		return String.format("%s;%s;%s,%s,%s;%d", 
 				Codigo_Prod,
 				Descrição,
 				Tipo_Imposto,
 				Data.format (formato),
-				Base_Legal ? "Online" : "Offline"  );
+				Base_Legal ? "Online" : "Offline" ,
+				Produto.size()
+				);
 	}
 	
 	public String getCodigo_Prod() {
