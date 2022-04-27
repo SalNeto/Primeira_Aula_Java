@@ -3,7 +3,7 @@ package br.edu.infnet.projetopdv.model.domain;
 
 public class Ncm extends Produto {
 
-	private float codigo;
+	private float code;
 	private String descricao;
 	
 	public Ncm(String categoria, int codigo, String nome, float valor) {
@@ -14,7 +14,7 @@ public class Ncm extends Produto {
 	@Override
 	public float calcularvalorimposto() {
 		// TODO Auto-generated method stub
-		return getValor() + codigo * 0.10f;
+		return getValor() + code * 0.10f;
 	}
 	
 	
@@ -27,22 +27,19 @@ public class Ncm extends Produto {
 		sb.append(";");
 		sb.append(calcularvalorimposto());
 		sb.append(";");
-		sb.append(codigo);
+		sb.append(code);
 		sb.append(";");
 		sb.append(descricao);
 		
 		return sb.toString();
 	}
 
-	
-	
-
-	public float getCodigo() {
-		return codigo;
+	public float getCode() {
+		return code;
 	}
 
-	public void setCodigo(float codigo) {
-		this.codigo = codigo;
+	public void setCode(float code) {
+		this.code = code;
 	}
 
 	public String getDescricao() {
@@ -52,7 +49,4 @@ public class Ncm extends Produto {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-	
-
 }

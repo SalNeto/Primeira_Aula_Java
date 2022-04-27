@@ -6,13 +6,13 @@ public class Ncmteste {
 
 	public static void main(String[] args) {
 		
-		Ncm ncm1 = new Ncm ("chop", 10);
-		ncm1.setCodigo(0);
+		Ncm ncm1 = new Ncm("outro", 10, "chope", 123);
+		ncm1.setCode(0);
 		ncm1.setDescricao(null);
 		
 
-		Ncm ncm2 = new Ncm ("chop", 10);
-		ncm2.setCodigo(0);
+		Ncm ncm2 = new Ncm("outro", 10, "chope", 123);
+		ncm2.setCode(0);
 		ncm2.setDescricao(null);
 		System.out.println("carga tributaria = " + ncm2.calcularvalorimposto());
 		
