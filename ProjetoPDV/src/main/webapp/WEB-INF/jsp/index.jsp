@@ -8,14 +8,15 @@
 <body>
 <h1> Salomao</h1>
 <h2>AppPDV: Calculo de Impostos</h2> 
+<h3><a href="/Ncms">Cadastramento NCM</a></h3>
 
-<!--<a href="/NCM">Cadastramento NCM</a>
+<!-- <h4> <a href="/Ncm">Cadastramento NCM</a></h4>-->
 
 <!-- A grey horizontal navbar that becomes vertical on small screens -->
-<nav class="navbar navbar-expand-sm bg-light">
+<!-- <nav class="navbar navbar-expand-sm bg-light">-->
 
   <!-- Links -->
-  <ul class="navbar-nav">
+ <!-- <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="/ncm">NCM</a>
     </li>
@@ -27,7 +28,7 @@
     </li>
   </ul>
 
-</nav>
+</nav>-->
 
 </body>
 </html>

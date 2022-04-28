@@ -13,11 +13,11 @@
   <h2>Autenticação</h2> 
   
   
-  <c:if test="${not empty mensagem}"></c:if>
+  <c:if test="${not empty mensagem}">
       	    <div class="alert alert-danger">
 	      <strong>Atenção Problema!</strong> ${mensagem}
   </div>
-  
+  </c:if>
   <form action="/login" method="post">
   
     <div class="mb-3 mt-3">
